@@ -7,10 +7,6 @@ Users can download the pixelated image, the solution key, and the individual til
 ---
 
 
-## 📂 GitHub Repository
-[https://github.com/ccl-iitgn/pixel_art_work](https://github.com/ccl-iitgn/pixel_art_work)
-
----
 
 ## 🔧 Features
 
@@ -28,8 +24,8 @@ Users can download the pixelated image, the solution key, and the individual til
 
 ```bash
 # Clone the repository
-git clone https://github.com/ccl-iitgn/pixelartwork.git
-cd pixelartwork
+git clone https://github.com/ccl-iitgn/pixel_art_work.git
+cd pixel_art_work
 
 # ---------------------
 # Frontend Setup
