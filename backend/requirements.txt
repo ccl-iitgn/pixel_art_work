@@ -1,0 +1,8 @@
+flask
+opencv-python
+numpy
+pillow
+pulp
+werkzeug
+matplotlib
+scikit-image
