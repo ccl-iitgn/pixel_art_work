@@ -13,7 +13,6 @@ def gen_puzzle():
     with tempfile.NamedTemporaryFile(delete=False, suffix=".png") as temp:
         image.save(temp.name)
         temp_path = temp.name
-    print(image)
     puzzle_img_data=create_puzzle(temp_path)
     return puzzle_img_data
 

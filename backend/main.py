@@ -7,6 +7,7 @@ for i in range(len(colors)):
         color += 10
 
 n = 1
+
 for tile in tiles:
     print(f"{n}: [{[tile[0]] * 3},{[tile[1]] * 3},{[tile[1]] * 3},{[tile[0]] * 3}],")
     n += 1

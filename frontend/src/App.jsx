@@ -14,9 +14,13 @@ function App() {
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0]
+    setData(null)
     if (selectedFile) {
       setFile(selectedFile)
       setPrevImg(URL.createObjectURL(selectedFile))
+    }else{
+      setPrevImg(null)
+      setFile(null)
     }
   }
   const downloadPDF = async (class1 = "puzzle-image", class2 = "solution-image") => {
