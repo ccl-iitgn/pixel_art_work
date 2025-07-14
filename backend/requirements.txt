@@ -6,3 +6,4 @@ pulp
 werkzeug
 matplotlib
 scikit-image
+colormath
