@@ -70,7 +70,7 @@ function App() {
     formData.append("image", file)
 
     try {
-      const response = await axios.post("https://pixel-art-work.onrender.com/api/gen_puzzle", formData, {
+      const response = await axios.post("/api/gen_puzzle", formData, {
         headers: {
           "Content-Type": "multipart/form-data"
         }
