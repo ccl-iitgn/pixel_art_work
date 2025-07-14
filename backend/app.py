@@ -1,4 +1,6 @@
+import sys
 import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from flask import Flask, request, send_file, send_from_directory
 from flask_cors import CORS
 from Solution import create_puzzle
