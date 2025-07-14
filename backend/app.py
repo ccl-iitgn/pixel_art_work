@@ -3,7 +3,7 @@ from Solution import create_puzzle
 from flask_cors import CORS
 import tempfile
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"])
+CORS(app, origins=["https://pixel-art-work.vercel.app/"])
 app.secret_key = 'face_puzzle'
 
 
