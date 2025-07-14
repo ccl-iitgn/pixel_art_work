@@ -7,3 +7,4 @@ werkzeug
 matplotlib
 scikit-image
 colormath
+flask_cors
